@@ -1,0 +1,503 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;400&family=Roboto:wght@300&display=swap");
+
+@font-face {
+  font-family: RBCDisplay;
+  src: url(https://www.rbcroyalbank.com/dvl/v1.0/assets/fonts/RBCDisplay-Regular.woff)
+      format("woff"),
+    url(https://www.rbcroyalbank.com/dvl/v1.0/assets/fonts/RBCDisplay-Regular.ttf)
+      format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+.appskwi {
+  font-family: "Fira Sans", sans-serif;
+  padding: 20px;
+
+  font-size: 25px;
+  font-weight: bold;
+}
+.sdhw {
+  color: red;
+}
+.scum {
+  padding: 1px;
+  background: #f3f3f378;
+  font-family: "Roboto", sans-serif;
+}
+.ssee {
+  margin: 30px;
+}
+.razzz {
+  margin-top: 20px;
+  margin-left: 13px;
+  margin-right: 13px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #000;
+}
+.razzz2 {
+  margin-top: 20px;
+  margin-left: 13px;
+  margin-right: 13px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  color: #000;
+}
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+header .mobile-header-content .mobile-logo-wpr .logo-text {
+  float: left;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: normal;
+}
+.rbcdisplay-bold,
+header #header .logo-wpr .logo-text,
+header #header .logo-wpr .logo-text a,
+header #header.master-header .logo-wpr .logo-text,
+header #header.master-header .logo-wpr .logo-text a,
+header .mobile-header-content .mobile-logo-wpr .logo-text,
+header .mobile-header-content .mobile-logo-wpr .logo-text a {
+  font-family: RBCDisplay;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+header .mobile-header-content .mobile-nav {
+  float: right;
+}
+.more-toggle span:hover,
+.tooltip-trigger:hover,
+a:hover,
+button[class*="_open"]:hover {
+  text-decoration: underline;
+}
+header .mobile-header-content .mobile-nav .mobile-nav-btn span {
+  font-size: 1rem;
+  line-height: 1rem;
+  position: absolute;
+  bottom: 10px;
+  left: 16px;
+}
+header {
+  width: 100%;
+  background-color: #006ac3;
+  padding: 0;
+  display: block;
+  height: 60px !important;
+}
+header .mobile-header-content .mobile-logo-wpr {
+  padding: 10px 15px;
+  display: inline-block;
+}
+header .mobile-header-content .mobile-logo-wpr .logo-img img {
+  height: 40px;
+  width: 31px;
+}
+img {
+  vertical-align: middle;
+}
+header .mobile-header-content .mobile-nav .mobile-secure-btn {
+  background-position: 50% 40%;
+  background-repeat: no-repeat;
+  background-color: #5cb85c;
+  height: 60px;
+  width: 60px;
+  position: relative;
+  float: left;
+  color: #252525;
+}
+button {
+  text-transform: none !important;
+}
+header .mobile-header-content .mobile-nav .mobile-nav-btn span {
+  font-size: 1rem;
+  line-height: 1rem;
+  position: absolute;
+  bottom: 10px;
+  left: 16px;
+}
+button {
+  display: inline-block;
+  border: 0;
+  border-radius: 0;
+  background: 0 0;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  line-height: inherit;
+}
+header .mobile-header-content .mobile-logo-wpr .logo-text {
+  float: right;
+  margin-left: 10px;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 18px;
+  line-height: normal;
+}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+header .mobile-header-content .mobile-nav .mobile-nav-btn {
+  background-image: url(https://www.rbcroyalbank.com/dvl/v1.0/assets/images/ui/ui-menu-white.svg);
+  background-size: 25px;
+  background-position: 50% 35%;
+  background-repeat: no-repeat;
+  background-color: #0051a5;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  width: 60px;
+  position: relative;
+  float: left;
+  cursor: pointer;
+}
+header .search-bar {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 130px;
+  background-color: #fff;
+  box-shadow: inset 0 3px 0 0 #006ac3;
+  border-bottom: 1px solid #c4c8cc;
+  z-index: 200;
+}
+header .mobile-header-content .mobile-logo,
+header .mobile-header-content .mobile-logo-wpr {
+  padding: 10px 15px;
+  display: inline-block;
+}
+header #header .mobile-header-content {
+  display: block;
+}
+header .mobile-header-content {
+  display: none;
+  width: 100%;
+}
+.alert .alert-content .alert-title,
+.bold,
+.btn:not(.tablesaw-nav-btn),
+.datepicker
+  .datepicker--content
+  .datepicker--body
+  .datepicker--cells
+  .datepicker--cell.-current-,
+.h5,
+.h6,
+.list-title,
+.mega-menu-wpr
+  .mega-menu-nav
+  > ul.mega-menu-lobs
+  .mega-menu-lob
+  .mega-menu-lob-content
+  .mega-menu-lob-content-inner
+  .mega-menu-lob-title,
+.mega-menu-wpr
+  .mega-menu-nav
+  > ul.mega-menu-lobs
+  > li.mega-menu-lob.active-dir
+  > a,
+.mega-menu-wpr .mega-menu-nav > ul.mega-menu-lobs > li.mega-menu-lob.active > a,
+.notice.field .notice-title,
+.roboto-medium,
+.section-tabs .tab-nav li.active a,
+.side-menu ul.link-list .lvl-root-menu a.active,
+.side-menu ul.link-list li > a.active:not(.btn),
+.tabs .tab-nav li.active a,
+.text-bold,
+.ui-autocomplete .ui-menu-item strong,
+.video-js .vjs-control-bar .vjs-captions-button:before,
+footer .fat-footer .fat-footer-inner .footer-links-title,
+h5,
+h6,
+header #header .header-content .global-nav .global-nav-item #nav-secure,
+header #nav-header nav .primary-nav .active-loc > a,
+header #nav-header nav .primary-nav .active-loc > button,
+header #nav-header.master-header nav .primary-nav > ul > li.active-loc > a,
+header #nav-header.master-header nav .primary-nav > ul > li.active-loc > button,
+header .mobile-header-content .mobile-nav .mobile-nav-btn span,
+header .mobile-header-content .mobile-nav .mobile-olb-btn span,
+header .mobile-header-content .mobile-nav .mobile-secure-btn span,
+header
+  .sub-header
+  .sub-nav
+  > ul.sub-links
+  > li
+  .dropdown-overlay
+  .dropdown-content
+  a.active
+  a,
+header
+  .sub-header
+  .sub-nav
+  > ul.sub-links
+  > li
+  .dropdown-overlay
+  .dropdown-content
+  a.active-dir
+  a,
+header
+  .sub-header
+  .sub-nav
+  > ul.sub-links
+  > li
+  .dropdown-overlay
+  .dropdown-content
+  li.active
+  a,
+header
+  .sub-header
+  .sub-nav
+  > ul.sub-links
+  > li
+  .dropdown-overlay
+  .dropdown-content
+  li.active-dir
+  a,
+header .sub-header .sub-nav > ul.sub-links > li.active a,
+header .sub-header .sub-nav > ul.sub-links > li.active-dir a,
+header
+  .tertiary-header
+  > .tertiary-nav
+  > ul.tertiary-links
+  > li
+  .dropdown-overlay
+  .dropdown-content
+  a.active
+  a,
+header
+  .tertiary-header
+  > .tertiary-nav
+  > ul.tertiary-links
+  > li
+  .dropdown-overlay
+  .dropdown-content
+  a.active-dir
+  a,
+header
+  .tertiary-header
+  > .tertiary-nav
+  > ul.tertiary-links
+  > li
+  .dropdown-overlay
+  .dropdown-content
+  li.active
+  a,
+header
+  .tertiary-header
+  > .tertiary-nav
+  > ul.tertiary-links
+  > li
+  .dropdown-overlay
+  .dropdown-content
+  li.active-dir
+  a,
+header .tertiary-header > .tertiary-nav > ul.tertiary-links > li.active a,
+header .tertiary-header > .tertiary-nav > ul.tertiary-links > li.active-dir a,
+strong,
+table thead tr th,
+table tr td.highlight,
+table tr td.subtitle,
+table tr td.subtitle p,
+table tr td.table-highlight,
+table tr td.table-subtitle,
+table tr td.table-subtitle p,
+table tr th.highlight,
+table tr th.subtitle,
+table tr th.subtitle p,
+table tr th.table-highlight,
+table tr th.table-subtitle,
+table tr th.table-subtitle p,
+table.stacktable tr th,
+table.table-stack tr th {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 11px;
+  font-style: normal;
+  color: #fff;
+  font-display: swap;
+}
+header .mobile-header-content .mobile-nav .mobile-secure-btn span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 11px;
+  margin: 20px 10px 10px 10px;
+  color: #fff;
+  font-style: normal;
+  position: absolute;
+}
+.kwo {
+  text-align: center;
+}
+#signInBanner {
+  margin-top: 24px;
+  min-height: 438px;
+  background-color: #006ac3;
+  background-size: cover;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.raszebi {
+  margin-top: 20px;
+  margin-left: 13px;
+  margin-right: 13px;
+  background-color: #006ac3;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+fieldset {
+  border: 0;
+  padding: 20px;
+}
+.signtxt {
+  font-family: "Fira Sans", sans-serif;
+  padding: 20px;
+  padding-top: 25px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.bleuBtnLarge {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 110.34%;
+  margin-top: 10px;
+  margin-left: 3px;
+  color: #fff !important;
+  line-height: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(0, 106, 195) !important;
+  padding: 0px 15px;
+  font-weight: 400;
+  border: 1px solid rgb(0, 106, 195) !important;
+  height: 45px;
+  position: relative;
+  display: inline;
+}
+input {
+  text-rendering: auto;
+}
+#primarySignIn .formBlock_clientCardOrUserName input[type="text"] {
+  font-size: 110.34%;
+  font-weight: 300;
+  color: #252525;
+  line-height: 1.5;
+}
+#primarySignIn .formBlock_clientCardOrUserName input[type="text"] {
+  margin: 0;
+  margin-top: 1px;
+  height: 48px;
+}
+#primarySignIn input[type="text"],
+#primarySignIn input[type="password"] {
+  height: 48px;
+  border: 1px solid #0758ae;
+}
+.formBlock input[type="text"],
+.formBlock input[type="password"] {
+  border: 0;
+  color: #555;
+}
+.zeps {
+  padding-top: 10px;
+}
+.checkboxInput {
+  top: -6px;
+  left: 0px;
+  width: 26px;
+  height: 26px;
+
+  cursor: pointer;
+}
+.checkBoxLabel {
+  margin-bottom: 10px;
+}
+.rasghri {
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+.importantNotice {
+  margin-bottom: 0px;
+  margin-top: 20px;
+  border: 1px solid #b3b3b3;
+  border-top: 4px solid #ffba00;
+  min-height: 104px;
+  padding: 15px 20px 10px 0;
+  font-family: Roboto, Arial, Helvetica, sans-serif !important;
+}
+.importantNotice {
+  border-top: 4px solid #456b86;
+}
+.serviceNotice_head_iconWrapper,
+#signInPage .importantNotice_head_iconWrapper {
+  width: 56px;
+  min-height: 2em;
+  display: flex;
+  justify-content: center;
+}
+.serviceNotice_head_text,
+#signInPage .importantNotice_head_text {
+  padding-top: 0.3em;
+  min-height: 2em;
+  width: calc(100% - 56px);
+}
+.serviceNotice_body {
+  line-height: 1.429;
+  color: #006ac3;
+}
+.serviceNotice_body,
+#signInPage .importantNotice_body {
+  margin-left: 56px;
+  font-weight: 300;
+  color: #006ac3;
+  font-size: 96.55%;
+  padding: 10px 0 11px 0;
+}
+.serviceNotice_head_iconWrapper,
+#signInPage .importantNotice_head_iconWrapper {
+  width: 56px;
+  min-height: 2em;
+  display: flex;
+  justify-content: center;
+}
+.main-legal {
+  background-color: #585858;
+  display: block;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.main-legal-inner {
+  padding: 20px 15px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
